@@ -1,0 +1,26 @@
+import turtle as t
+import time as tm
+t.pensize(10)
+t.color('green')
+t.penup()
+t.setpos(1,250)
+t.pendown()
+t.forward(10)
+t.backward(10)
+t.circle(-90,-185)
+t.circle(90,-185)
+
+t.penup()
+t.color('red')
+t.setpos(100,250)
+t.pendown()
+t.right(70)
+t.forward(350)
+t.backward(175)
+t.left(60)
+t.forward(170)
+
+t.backward(170)
+t.left(50)
+t.forward(170)
+tm.sleep(5)
